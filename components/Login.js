@@ -10,6 +10,9 @@ export default function Login(){
       </Head>
       <Box
         bgColor='blue.500'
+        w='fit-content'
+        p={5}
+        rounded='3x1'
       >
         <ChatIcon w='100px' h='100px' color='white' />
       </Box>
