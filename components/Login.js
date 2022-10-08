@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { ChatIcon } from "@chakra-ui/icons";
+import { Box } from "@chakra-ui/react";
 
 export default function Login(){
   return (
@@ -7,7 +8,11 @@ export default function Login(){
       <Head>
         <title>Login</title>
       </Head>
-      <ChatIcon w='100px' h='100px' color='white' />
+      <Box
+        bgColor='blue.500'
+      >
+        <ChatIcon w='100px' h='100px' color='white' />
+      </Box>
     </>
   )
 }
