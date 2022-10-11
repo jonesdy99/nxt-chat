@@ -14,6 +14,7 @@ export default function Login(){
         p={5}
         rounded='3x1'
         boxShadow='md'
+        
       >
         <ChatIcon w='100px' h='100px' color='white' />
       </Box>
