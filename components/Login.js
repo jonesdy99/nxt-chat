@@ -12,12 +12,17 @@ export default function Login(){
       h='100vh'>
         <Stack
           align='center'
+          bgColor='gray.600'
+          p={16}
+          borderRadius='10%'
+          spacing={10}
+          boxShadow='lg'
         >
           <Box
             bgColor='blue.500'
             w='fit-content'
             p={5}
-            rounded='3x1'
+            borderRadius='10%'
             boxShadow='md'
             >
             <ChatIcon w='100px' h='100px' color='white' />
